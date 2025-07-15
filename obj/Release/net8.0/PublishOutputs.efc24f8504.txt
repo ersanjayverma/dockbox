@@ -1,7 +1,0 @@
-/home/sj/dataServer/Servers/vscode/Dockbox/bin/Release/net8.0/publish/Dockbox
-/home/sj/dataServer/Servers/vscode/Dockbox/bin/Release/net8.0/publish/Dockbox.dll
-/home/sj/dataServer/Servers/vscode/Dockbox/bin/Release/net8.0/publish/Dockbox.deps.json
-/home/sj/dataServer/Servers/vscode/Dockbox/bin/Release/net8.0/publish/Dockbox.runtimeconfig.json
-/home/sj/dataServer/Servers/vscode/Dockbox/bin/Release/net8.0/publish/Dockbox.pdb
-/home/sj/dataServer/Servers/vscode/Dockbox/bin/Release/net8.0/publish/Newtonsoft.Json.dll
-/home/sj/dataServer/Servers/vscode/Dockbox/bin/Release/net8.0/publish/Spectre.Console.dll

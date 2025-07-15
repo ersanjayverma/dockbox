@@ -1,2 +1,0 @@
-/home/sj/dataServer/Servers/vscode/Dockbox/bin/Release/net8.0/linux-x64/publish/Dockbox.pdb
-/home/sj/dataServer/Servers/vscode/Dockbox/bin/Release/net8.0/linux-x64/publish/Dockbox
