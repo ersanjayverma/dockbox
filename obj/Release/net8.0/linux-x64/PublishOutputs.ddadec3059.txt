@@ -1,0 +1,2 @@
+/home/sj/dataServer/Servers/vscode/Dockbox/publish/dockbox.pdb
+/home/sj/dataServer/Servers/vscode/Dockbox/publish/dockbox

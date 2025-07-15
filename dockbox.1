@@ -1,0 +1,56 @@
+.TH DOCKBOX 1 "July 2025" "Dockbox 1.0" "User Commands"
+.SH NAME
+dockbox \- Declarative Docker Provisioner
+
+.SH SYNOPSIS
+.B dockbox
+.RI [ options ] " [config.json]"
+
+.SH DESCRIPTION
+\fBDockbox\fR is a command-line utility to declaratively manage Docker containers, volumes, networks, and images from JSON configuration files.
+
+It reads configuration files from \fI/etc/dockbox\fR by default, or a single file path provided as an argument.
+
+.SH OPTIONS
+
+.TP
+.BR --apply
+Applies the configuration: pulls images, creates networks/volumes, and runs containers as defined.
+
+.TP
+.BR --destroy
+Destroys all Docker containers, volumes, and networks defined in the config.
+
+.TP
+.BR --dry-run
+Prints a summary of the provisioning plan without executing any Docker commands.
+
+.TP
+.I config.json
+(Optional) A specific JSON file to load instead of scanning \fI/etc/dockbox\fR.
+
+.SH EXAMPLES
+
+.TP
+\fBdockbox --dry-run\fR
+Preview all changes that would be applied from configs in \fI/etc/dockbox\fR.
+
+.TP
+\fBdockbox --apply myconfig.json\fR
+Apply a single configuration file.
+
+.TP
+\fBdockbox --destroy /etc/dockbox/mysql.json\fR
+Remove containers, volumes, and networks defined in one config file.
+
+.SH FILES
+.TP
+.I /etc/dockbox/
+Default directory containing JSON config files.
+
+.SH AUTHOR
+Written by Sanjay Verma.
+
+.SH SEE ALSO
+docker(1), docker-compose(1)
+
